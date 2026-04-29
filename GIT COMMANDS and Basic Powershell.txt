@@ -1,0 +1,23 @@
+GIT COMMANDS/Basic Powershell:
+
+mkdir GitTestS9 - (make directory)
+
+cd GitTestS9 - (change directory)
+
+ls/dir - listing all the files in the directory
+
+cd .. - takes back one step
+
+cd ..\.. - takes back two dir
+
+pwd - Gives current path
+
+pushd/cd ~\Desktop - takes to Desktop from anywhere
+
+Push-Location → saves your current directory on a stack and moves you somewhere else
+
+Pop-Location → brings you back to the last saved directory
+
+Rename-Item GitTestS9 GitTest - rename syntax (current filename space updated filename)
+
+ git commit -m "Intial Commit" - First Commit
