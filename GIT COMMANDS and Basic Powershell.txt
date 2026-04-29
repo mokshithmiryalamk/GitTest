@@ -21,3 +21,11 @@ Pop-Location → brings you back to the last saved directory
 Rename-Item GitTestS9 GitTest - rename syntax (current filename space updated filename)
 
  git commit -m "Intial Commit" - First Commit
+
+After making changes locally:
+git add .
+git commit -m "change"
+git push origin main
+
+if changes made in GitHub but not in local:
+git pull origin main - all changes done there will be pulled here 
